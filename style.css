@@ -1,0 +1,203 @@
+*{box-sizing: border-box;}
+
+
+body{
+    margin: 0;
+    border: 0;
+}
+
+#main{
+    display: grid;
+    height: 50px;
+    width: 100%;
+   grid-template-columns: 0.5fr 0.3fr 0fr 1fr 0.2fr 0.7fr 0.3fr;
+   
+}
+
+.enve{
+   align-self: center;
+   display: grid;
+    padding-left: 360px;
+    
+}
+
+.mail{
+    align-self: center;
+    padding-left: 10px;
+}
+
+.barrra{
+    align-self: center;
+    display: flex;
+
+}
+
+.text{
+    align-self: center;
+    display:flex;
+    padding-left: 30px;
+}
+
+.icone{
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+    
+
+#padding2{
+    padding-left: 13px;
+    padding-right: 9px;
+}
+
+.blog{
+    height: 150px;
+    background-image: url(breadcrumb.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.grade{
+    height: 150px;
+}
+.span1{
+    font-size: 50px;
+}
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+.div{
+    display: flex;
+    flex-flow: row;
+}
+.auto{
+    font-size: 40px;
+}
+span{
+    color: white;
+}
+.img{
+    height: 5000px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+}
+.input{
+   width: 18%;
+   height: 1000px;
+    margin-left: 395px;
+   padding: 0px 10px;
+    
+
+
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+::placeholder{
+    font-size: 16px;
+    padding-left: 15px;
+}
+h4{
+    font-size: 25px;
+
+}
+
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    
+}
+#div1{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    
+}
+#asdasd{
+    color: rgb(0, 0, 0);
+}
+
+#asdasd>span{
+    color: gray;
+    font-size: 12px;
+}
+
+.div2{
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    color: rgb(0, 0, 0);
+    width: 400px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    padding: 7px 26px 5px;
+    margin: 0px 6px 10px 0px;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    
+}
+
+.diva{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.diimg{
+    
+   text-align: center;
+   height: 300px;
+
+    padding: 0px 15px;
+}
+
+.may{
+    border: solid 1px;
+    padding: 25px 0px 0px;
+    height: 300px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 15px;
+}
+#may2{
+    display: flex;
+    padding-left: 4px;
+    margin: 0px 15px 0px 0px;
+}
+.s{
+    margin: 0px 0px 12px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: start;
+}
+
+
